@@ -45,7 +45,7 @@ we're given a table that stores customer contact information (email, phone numbe
 }
 ```
 
-
+---
 
 ## 🛠 How to Run Locally
 #### Clone the repo:
