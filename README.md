@@ -45,14 +45,16 @@ You're given a table that stores customer contact information (email, phone numb
 }
 ```
 
+
+
 ### 🛠 How to Run Locally
-Clone the repo:
+#### Clone the repo:
 
 ```
 git clone https://github.com/your-username/Bitespeed_Backend.git
 cd Bitespeed_Backend
 ```
-Set up .env:
+#### Set up .env:
 ```
 DB_HOST=your_db_host
 DB_USER=your_db_user
@@ -60,12 +62,12 @@ DB_PASSWORD=your_db_password
 DB_NAME=your_db_name
 ```
 
-Install dependencies:
+#### Install dependencies:
 ```
 pip install -r requirements.txt
 ```
 
-Start the server:
+#### Start the server:
 ```
 uvicorn app:app --reload
 ```
