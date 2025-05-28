@@ -13,7 +13,7 @@ This project implements a backend service to resolve contact identities based on
 
 ## 📬 Problem Statement
 
-You're given a table that stores customer contact information (email, phone number). Multiple entries may exist for the same user. You need to:
+we're given a table that stores customer contact information (email, phone number). Multiple entries may exist for the same user. You need to:
 
 - Identify if a given contact is new or already exists.
 - Merge contacts into a unified identity.
@@ -32,7 +32,7 @@ You're given a table that stores customer contact information (email, phone numb
 }
 ```
 
-### Response Format
+#### Response Format
 
 ```json
 {
@@ -47,7 +47,7 @@ You're given a table that stores customer contact information (email, phone numb
 
 
 
-### 🛠 How to Run Locally
+## 🛠 How to Run Locally
 #### Clone the repo:
 
 ```
