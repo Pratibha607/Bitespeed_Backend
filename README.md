@@ -31,3 +31,16 @@ You're given a table that stores customer contact information (email, phone numb
   "phoneNumber": "1234567890"
 }
 ```
+
+### Response Format
+
+```json
+{
+  "contact": {
+    "primaryContatctId": 1,
+    "emails": ["john@example.com"],
+    "phoneNumbers": ["1234567890"],
+    "secondaryContactIds": [2, 3]
+  }
+}
+```
